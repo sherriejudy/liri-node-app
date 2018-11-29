@@ -38,13 +38,13 @@ function bandsInTown(input) {
   if (!input) {
     input = "";
   }
+  var url =
+    "https://rest.bandsintown.com/artists/" +
+    input +
+    "/events?app_id=" +
+    keys.bandsintown.appID;
   axios
-    .get(
-      "https://rest.bandsintown.com/artists/" +
-        input +
-        "/events?app_id=" +
-        keys.bandsintown.appID
-    )
+    .get(url)
     .then(function(response) {
       var data = response.data[0];
       console.log("Venue Name: " + data.venue.name);
@@ -101,15 +101,16 @@ function showMovie(input) {
 function doThing() {
   fs.readFile("random.txt", "utf8", function(error, data) {
     var txt = data.split(",");
+    var input = txt[1].trim();
     switch (txt[0]) {
       case "concert-this":
-        bandsInTown(txt[1]);
+        bandsInTown(input);
         break;
       case "spotify-this-song":
-        playSong(txt[1]);
+        playSong(input);
         break;
       case "movie-this":
-        showMovie(txt[1]);
+        showMovie(input);
         break;
     }
   });
