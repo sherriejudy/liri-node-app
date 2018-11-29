@@ -20,4 +20,4 @@ LIRI bot takes in 4 commands:
 
 ## Demo
 
-![alt text](https://github.com/sherriejudy/liri-node-app/blob/master/demo.gif"Demo Gif")
+![alt text](https://github.com/sherriejudy/liri-node-app/blob/master/demo.gif "Demo Gif")
