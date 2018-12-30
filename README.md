@@ -14,6 +14,13 @@ LIRI bot takes in 4 commands:
 3. movie-this': displays key movie information about the movie queried. Without a query, it defaults to 'Mr. Nobody'
 4. 'do-what-it-says': runs the command and query as specified in the random.txt file
 
+### Built With
 
+```
+* JavaScript
+* NodeJS
+
+
+```
 
 
