@@ -5,7 +5,7 @@
 LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.
 Similar technology, commonly found, is Iphone's SIRI which recognizes Speech
 
-## Functionality
+### Functionality
 
 LIRI bot takes in 4 commands:
 
