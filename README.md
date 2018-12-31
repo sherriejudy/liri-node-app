@@ -17,8 +17,8 @@ LIRI bot takes in 4 commands:
 ### Built With
 
 ```
-* JavaScript
 * Node.JS
+* JavaScript
 ```
 
 
